@@ -1,0 +1,15 @@
+package com.sophos.woocommerce.uniplusintegration;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@EnableScheduling
+@SpringBootApplication
+public class UniplusIntegrationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UniplusIntegrationApplication.class, args);
+	}
+
+}

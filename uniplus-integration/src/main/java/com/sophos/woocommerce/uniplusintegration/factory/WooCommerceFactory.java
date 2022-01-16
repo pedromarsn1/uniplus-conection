@@ -14,8 +14,8 @@ public class WooCommerceFactory {
         return new WooCommerceAPI(
                 new OAuthConfig(
                         "https://catalogo.rfldesigner.com.br",
-                        "ck_9b2b1ea5e936c55b2b70c294acd47a17ab6ba502",
-                        "cs_b231bf37934222f9bdbf1900aa9376fd7fe0cf4b"
+                        "ck_****************************************",
+                        "cs_****************************************"
                 ),
                 ApiVersionType.V3
         );
